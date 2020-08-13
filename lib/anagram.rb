@@ -17,4 +17,5 @@ class Anagram
         end
         new_array  
     end 
+    # array.select {|x| x.split("").sort == @word.split("").sort}
 end 
